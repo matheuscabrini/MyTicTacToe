@@ -1,0 +1,42 @@
+.logo {
+	-fx-font-size: 60;
+	-fx-padding: 50 50 50 50;
+	-fx-font-family: "Courier New";
+	-fx-font-weight: bold;
+	-fx-fill:  linear-gradient(cyan , dodgerblue);
+	-fx-effect: dropshadow(gaussian, dodgerblue, 25, 0.4, 3, 3);   
+}
+.box {
+	-fx-spacing: 15;
+	-fx-padding: 10 10 30 10;
+	-fx-alignment: center;
+	-fx-background-color: black;
+	-fx-background-size: 100, 200;	
+}
+.label {
+	-fx-font-size: 15;
+	-fx-padding: 10 15 10 15;
+	-fx-text-fill: dodgerblue;
+}
+.text-field {
+	-fx-font-size: 15px;
+	-fx-padding: 10 20 10 20;
+}
+
+.button {
+	-fx-background-color: #f0c828;
+	-fx-background-color: linear-gradient(to top, orange, dodgerblue);
+	-fx-border-radius: 28;
+	-fx-font-family: "Courier New";
+	-fx-font-weight: bold;
+	-fx-text-fill: #ffffff;
+	-fx-font-size: 20px;
+	-fx-padding: 10 20 10 20;
+}
+.button:armed {
+  -fx-background-color: #3cb0fd;
+  -fx-background-color: linear-gradient(to bottom, #3cb0fd, #3498db);
+}
+.button:hover {
+  -fx-effect: dropshadow(gaussian, dodgerblue, 15, 0.4, 3, 3);     	
+}
